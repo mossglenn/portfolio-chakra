@@ -1,0 +1,12 @@
+node_modules
+.next
+dist
+pnpm-lock.yaml
+.env
+.env.*
+
+# Ignore JSON files
+package.json
+package-lock.json
+pnpm-lock.yaml
+tsconfig.json
