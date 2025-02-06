@@ -1,10 +1,10 @@
 import { Flex } from '@chakra-ui/react';
 
-import { CTASection } from './components/cta-section';
-import { SomeImage } from './components/some-image';
-import { SomeText } from './components/some-text';
+import { CTASection } from '@/components/layout/cta-section';
+import { SomeImage } from '@/components/layout/some-image';
+import { SomeText } from '@/components/layout/some-text';
 
-export const Home = () => {
+const Home = () => {
   return (
     <Flex
       direction="column"
@@ -21,3 +21,4 @@ export const Home = () => {
     </Flex>
   );
 };
+export default Home;

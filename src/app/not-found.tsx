@@ -1,3 +1,5 @@
+'use client';
+import React from 'react';
 import { Button } from '@/components/ui/button';
 import {
   Box,
@@ -45,3 +47,5 @@ export const Page404 = () => {
     </Flex>
   );
 };
+
+export default Page404;
